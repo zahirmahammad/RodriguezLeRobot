@@ -1,0 +1,19 @@
+# Initial Setup
+
+
+#### Commands
+
+Calibrate Follower Arm
+```
+lerobot-calibrate --robot.type=so101_follower --robot.port=/dev/ttyACM0 --robot.id=my_awesome_follower
+```
+
+Calibrate follower Arm
+```
+lerobot-calibrate --teleop.type=so101_leader --teleop.port=/dev/ttyACM1 --teleop.id=my_awesome_leader
+```
+
+Teleoperate LeRobot
+```
+lerobot-teleoperate --robot.type=so101_follower --robot.port=/dev/ttyACM0 --robot.id=my_awesome_follower --teleop.type=so101_leader --teleop.port=/dev/ttyACM1 --teleop.id=my_awesome_leader
+```
