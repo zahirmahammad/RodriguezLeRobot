@@ -1,6 +1,12 @@
 site_name: Rodriguez LeRobot
 
 theme:
-  name: 'rtd-dropdown'
+  name: 'readthedocs'
 
 site_url: https://zahirmahammad.github.io/rodriguezlerobot/
+
+
+nav:
+  - Introduction: index.md
+  - Initial Setup: InitialSetup.md
+  - Control the Robot: Control.md

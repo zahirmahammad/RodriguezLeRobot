@@ -1,19 +1,17 @@
-# Initial Setup
+### The Setup
 
 
-#### Commands
+The current LeRobot Setup
+![alt text](images/coverimage.png)
 
-Calibrate Follower Arm
-```
-lerobot-calibrate --robot.type=so101_follower --robot.port=/dev/ttyACM0 --robot.id=my_awesome_follower
-```
+Current System - ```Jetson Nano```
 
-Calibrate follower Arm
-```
-lerobot-calibrate --teleop.type=so101_leader --teleop.port=/dev/ttyACM1 --teleop.id=my_awesome_leader
-```
+The LeRobot documentation link: [https://huggingface.co/docs/lerobot/en/so101](https://huggingface.co/docs/lerobot/en/so101)
 
-Teleoperate LeRobot
-```
-lerobot-teleoperate --robot.type=so101_follower --robot.port=/dev/ttyACM0 --robot.id=my_awesome_follower --teleop.type=so101_leader --teleop.port=/dev/ttyACM1 --teleop.id=my_awesome_leader
-```
+### Logging into Jetson
+1. Connect to the network.
+2. Download and install NoMachine
+3. Open NoMachine and in the devices section, there should be Jetson Nano
+4. Click on Jetson, Login and Enter Password
+5. Give it some time and you should see Jetson Login screen
+6. ```Debug:``` If nothing is visible, close the NoMachine window and reopen and relogin to jetson
