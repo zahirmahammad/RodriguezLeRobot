@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://zahirmahammad.github.io/rodriguezlerobot/</loc>
-         <lastmod>2026-02-05</lastmod>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://zahirmahammad.github.io/rodriguezlerobot/Control/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://zahirmahammad.github.io/rodriguezlerobot/InitialSetup/</loc>
+         <lastmod>2026-02-19</lastmod>
     </url>
 </urlset>
